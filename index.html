@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>jQuery Nearest</title>
+
+		<link rel="stylesheet" href="css/screen.css">
+
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/jquery.nearest.js" type="text/javascript"></script>
+		<script src="js/global.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="child parent">
+			Parent
+			<div class="child end">Child End</div>
+		</div>
+		<div class="child parent end">
+			Parent End
+			<div class="child end">Child End</div>
+		</div>
+		<div class="child parent">
+			Parent
+			<div class="child parent">
+				Parent
+				<div class="child parent end">
+					Parent End
+					<div class="child parent end">
+						Parent End
+						<div class="child end">Child End</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="child end">Child End</div>
+	</body>
+</html>

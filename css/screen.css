@@ -1,0 +1,13 @@
+div {
+	padding: 10px;
+	background: white;
+	border: 1px solid #aaa;
+}
+
+div + div { margin-top: 10px; }
+
+.child { margin-left: 20px; }
+
+.nearest {
+	background: #ddd;
+}
